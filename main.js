@@ -55,22 +55,3 @@ console.log(`${users[3].name}의 나이는 ${users[3].age} 입니다.`)
 console.log(`${users[0].name}의 나이는 ${users[0].age} 입니다.`)
 console.log(`${users[1].name}의 나이는 ${users[1].age} 입니다.`)
 console.log(`${users[2].name}의 나이는 ${users[2].age} 입니다.`)
-
-var add = function (a, b) {
-  console.dir(arguments);
-  return a+b;
-};
-
-console.log (add(1));
-console.log(add(1,2));
-console.log(add(1,2,3));
-
-function sum(){
-  var result = 0;
-  for (var i=0; i < arguments.length; i++) {
-    result += arguments[i];
-  }
-  return result;
-}
-console.log (sum(1,2,3));
-console.log (sum(1,2,3,4,5,6,7,8,9));
